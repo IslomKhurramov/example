@@ -1,5 +1,4 @@
 {
-  "name": "external",
   "version": "1.0.0",
   "description": "homeworkd",
   "main": "index.js",
@@ -12,10 +11,21 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
     "inquirer": "^8.0.0",
     "moment": "^2.29.4",
-    "nodemon": "^2.0.22",
+    "node-schedule": "^2.1.1",
+    "shelljs": "^0.8.5",
     "uuid": "^9.0.0",
     "validator": "^13.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khurramov/external.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Khurramov/external/issues"
+  },
+  "homepage": "https://github.com/Khurramov/external#readme"
 }
